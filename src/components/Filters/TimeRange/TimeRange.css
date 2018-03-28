@@ -1,0 +1,29 @@
+.filter-time {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.filter-time .label {
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 14px;
+    color: #313131;
+}
+
+.filter-time .value {
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 14px;
+    color: #313131;
+}
+
+.filter-time input {
+    width: 80%;
+}
+
+.filter-time .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20%;
+}

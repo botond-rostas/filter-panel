@@ -1,0 +1,13 @@
+.results-container {
+    color: white;
+    width: 80%;
+    margin: 20px auto 0 auto;
+}
+
+.results-container .label,
+.results-container .result {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

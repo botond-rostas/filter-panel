@@ -1,0 +1,32 @@
+.filter-sorting {
+    margin: 10px 0 0 0;
+    border-top: 1px solid #ffffff30;
+}
+
+.filter-sorting .label {
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 14px;
+    color: #313131;
+}
+
+.filter-sorting .filters {
+    display: grid;
+    grid-column-gap: 20px;
+}
+
+.filter-sorting .filters .container-radio:nth-child(1) {
+    grid-column: 1;
+}
+
+.filter-sorting .filters .container-radio:nth-child(2) {
+    grid-column: 2;
+}
+
+.filter-sorting .filters .container-radio:nth-child(3) {
+    grid-column: 3;
+}
+
+.filter-sorting .filters .container-radio:nth-child(4) {
+    grid-column: 4;
+}

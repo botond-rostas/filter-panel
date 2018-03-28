@@ -1,0 +1,24 @@
+.search-field-container {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.search-field-container input {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 0;
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.search-field-container.expanded input {
+    border-radius: 4px 4px 0 0;
+}
+
+
+.search-field-container input:hover {
+    background-color: #f3f3f3;
+}

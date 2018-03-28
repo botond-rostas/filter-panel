@@ -1,0 +1,39 @@
+.button {
+    width: 30%;
+    /* margin: auto; */
+    padding: 5px 10px;
+    border-radius: 4px;
+    background: #45b862;
+    color: white;
+    border: 0;
+    font-size: 16px;
+    margin: 5px auto;
+}
+
+.button:hover {
+    background: #74d28b;
+}
+
+.button:active {
+    background: #45b862;
+}
+
+.button.cancel {
+    background: #eaeaea;
+    color: #ce3131;
+    border: 1px solid #ce3131;
+}
+
+.button.cancel:hover {
+    background: #f3f3f3;
+    color: #ce3131;
+}
+
+.button.apply {
+    padding: 10px;
+}
+
+.button.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}

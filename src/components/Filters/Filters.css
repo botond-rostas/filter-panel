@@ -1,0 +1,36 @@
+.filters-container {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.filters-container .controls {
+    width: 80%;
+    max-width: 800px;
+    background-color: #d2d2d2;
+    padding: 20px;
+    border-radius: 0 0 4px 4px;
+}
+
+.filters-container .filters-header {
+    font-size: 24px;
+    font-weight: 700;
+    color: #313131;
+    padding: 10px 0;
+}
+
+.time-price-filters {
+    margin: 10px 0 0 0;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 50% 50%;
+    border-top: 1px solid #ffffff30;
+}
+
+.action-buttons {
+    margin: 20px 0 20px 0;
+    display: grid;
+    grid-column-gap: 20px;
+    border-top: 1px solid #ffffff30;
+    padding: 20px 0 0 0;
+}

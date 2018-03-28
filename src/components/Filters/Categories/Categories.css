@@ -1,0 +1,29 @@
+.filter-categories {
+    margin: 20px 0 0 0;
+    border-top: 1px solid #ffffff30;
+}
+
+.filter-categories .label {
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 14px;
+    color: #313131;
+}
+
+
+.filter-categories .filters {
+    display: grid;
+    grid-column-gap: 20px;
+}
+
+.filter-categories .filters .container-checkbox:nth-child(1) {
+    grid-column: 1;
+}
+
+.filter-categories .filters .container-checkbox:nth-child(5) {
+    grid-column: 2;
+}
+
+.filter-categories .filters .container-checkbox:nth-child(9) {
+    grid-column: 3;
+}
