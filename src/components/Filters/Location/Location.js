@@ -25,6 +25,10 @@ class Location extends Component {
     render () {
         let value = LOCATION_STEPS[LOCATION_STEPS.indexOf(this.props.filters.radius.range)];
 
+        if (value !== LOCATION_STEPS[LOCATION_STEPS.length -1]) {
+            value = value + " km";
+        }
+
         return (
             <div className="filter-location">
                 <div className="location-slider">
