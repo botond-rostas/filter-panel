@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import ShpockApp from './contianers/ShpockApp/ShpockApp';
+import ShpockApp from './containers/ShpockApp/ShpockApp';
 
 class App extends Component {
     render() {
