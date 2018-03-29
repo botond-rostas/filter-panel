@@ -25,7 +25,6 @@ class Categories extends Component {
     }
 
     render () {
-        // debugger;
         const selected = this.props.filters.categories;
         return (
             <div className="filter-categories">
